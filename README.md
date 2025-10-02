@@ -31,9 +31,9 @@ Clone este repositório ou baixe os arquivos.
 
 Instale as dependências:
 
-``bash
+`bash
 
-pip install -r requirements.txt``
+pip install -r requirements.txt`
 
 
 
@@ -75,9 +75,9 @@ pip install -r requirements.txt``
 
 &nbsp; 
 
-\- `out/nome\_arquivo\_ocr\_report.json` → métricas detalhadas
+- `out/nome\_arquivo\_ocr\_report.json` → métricas detalhadas
 
 &nbsp; 
 
-\- `out/nome\_arquivo\_ocr\_report.csv` → resumo em CSV
+- `out/nome\_arquivo\_ocr\_report.csv` → resumo em CSV
 
