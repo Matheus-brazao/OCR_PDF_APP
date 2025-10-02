@@ -1,30 +1,29 @@
-\# OCR PDF App
+# OCR PDF App
 
 
 
 Ferramenta para transformar PDFs escaneados em:
 
-\- Arquivos TXT
+- Arquivos TXT
 
-\- PDFs pesquisáveis
-
-\- Relatórios de confiança do OCR (JSON e CSV)
-
+- PDFs pesquisáveis
+- Relatórios de confiança do OCR (JSON e CSV)
 
 
-\## 🚀 Requisitos
 
-\- Python 3.10+
+## 🚀 Requisitos
 
-\- \[Tesseract OCR](https://github.com/tesseract-ocr/tesseract) instalado  
+- Python 3.10+
+
+- \[Tesseract OCR](https://github.com/tesseract-ocr/tesseract) instalado  
 
 &nbsp; (colocar o caminho no `ocr\_pdf\_app.py` em `pytesseract.pytesseract.tesseract\_cmd`)
 
-\- Arquivos de idioma (`eng.traineddata`, `por.traineddata`) na pasta `tessdata`
+- Arquivos de idioma (`eng.traineddata`, `por.traineddata`) na pasta `tessdata`
 
 
 
-\## 📦 Instalação
+## 📦 Instalação
 
 Clone este repositório ou baixe os arquivos.
 
@@ -32,17 +31,17 @@ Clone este repositório ou baixe os arquivos.
 
 Instale as dependências:
 
-```bash
+``bash
 
-pip install -r requirements.txt
-
-
-
-\# Uso
+pip install -r requirements.txt``
 
 
 
-\### Linha de comando (modo profissional)
+# Uso
+
+
+
+### Linha de comando (modo profissional)
 
 
 
@@ -50,29 +49,29 @@ pip install -r requirements.txt
 
 
 
-\### Duplo clique (modo usuário final)
+### Duplo clique (modo usuário final)
 
 
 
-\- Basta dar duplo clique em `ocr\_pdf\_app.py` (ou no `.exe`, se empacotado).
-
-&nbsp; 
-
-\- O programa abre uma janela para escolher o PDF.
+- Basta dar duplo clique em `ocr\_pdf\_app.py` (ou no `.exe`, se empacotado).
 
 &nbsp; 
 
-
-
-\## Saídas
-
-
-
-\- `out/nome\_arquivo.txt` → texto extraído
+- O programa abre uma janela para escolher o PDF.
 
 &nbsp; 
 
-\- `out/nome\_arquivo\_searchable.pdf` → PDF pesquisável
+
+
+## Saídas
+
+
+
+- `out/nome\_arquivo.txt` → texto extraído
+
+&nbsp; 
+
+- `out/nome\_arquivo\_searchable.pdf` → PDF pesquisável
 
 &nbsp; 
 
