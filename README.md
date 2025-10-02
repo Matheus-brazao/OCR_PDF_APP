@@ -15,7 +15,7 @@ Ferramenta para transformar PDFs escaneados em:
 
 - Python 3.10+
 
-- \[Tesseract OCR](https://github.com/tesseract-ocr/tesseract) instalado  
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) instalado  
 
 &nbsp; (colocar o caminho no `ocr\_pdf\_app.py` em `pytesseract.pytesseract.tesseract\_cmd`)
 
