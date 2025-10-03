@@ -41,19 +41,12 @@ pip install -r requirements.txt`
 
 
 
-### Linha de comando (modo profissional)
+### Linha de comando
 
 
 
 `python ocr\_pdf\_app.py "C:\\Users\\...\\arquivo.pdf" --outdir out --langs por+eng`
 
-
-
-### Duplo clique (modo usuário final)
-
-
-
-- Basta dar duplo clique em `ocr\_pdf\_app.py` (ou no `.exe`, se empacotado).
 
 &nbsp; 
 
